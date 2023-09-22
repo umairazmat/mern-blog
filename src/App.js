@@ -1,12 +1,16 @@
 import * as React from "react";
 import "./App.css";
+import Navigation from "./components/Navigation/Navigation";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-     <h1>Let's Start</h1>
+     <Navigation/>
+     <Footer/>
     </>
   );
 }
 
 export default App;
+
