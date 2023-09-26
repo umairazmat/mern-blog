@@ -10,7 +10,7 @@ export default function AddBLog() {
   };
   return (
     <div>
-      <BlogForm addBlog={addBlog}/>
+      <BlogForm addBlog={addBlog} />
       <BLogList blogs={blogs} />
     </div>
   );
