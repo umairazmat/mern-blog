@@ -1,4 +1,4 @@
-export const blogDetails = [
+const blogDetails = [
   {
     name: "Full Stack Developer",
     author: "Umair Azmat",
@@ -18,3 +18,4 @@ export const blogDetails = [
       "I am a Backend Developer with 2 years of experience in the IT industry. I have worked on various technologies like React, Node, Express, MongoDB, MySQL, etc. I have also worked on AWS services like EC2, S3, Lambda, etc. I have also worked on various other technologies like Python, Django, Java, Spring Boot, etc. I have also worked on various other technologies like Python, Django, Java, Spring Boot, etc. ",
   },
 ];
+export default blogDetails;

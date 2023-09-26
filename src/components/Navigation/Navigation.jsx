@@ -9,14 +9,12 @@ export default function Navigation() {
     <Navbar collapseOnSelect expand="lg" bg="primary" data-bs-theme="dark">
       <Container>
         <Link className="text-white text-decoration-none px-2" to="/">
-          <Navbar.Brand  className="fw-bold">
-            MERN Blog
-          </Navbar.Brand>
+          <Navbar.Brand className="fw-bold">MERN Blog</Navbar.Brand>
         </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto"></Nav>
+          <Nav className="me-auto" />
           <Nav>
             <Link className="text-white text-decoration-none px-2" to="/about">
               About
